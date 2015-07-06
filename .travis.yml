@@ -3,4 +3,4 @@ gemfile:
   - Gemfile
 rvm:
   - 1.9.3
-script: BUNDLE_GEMFILE=Gemfile bundle exec rake foodcritic
+script: BUNDLE_GEMFILE=Gemfile bundle exec rake style
